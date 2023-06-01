@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- Login Page Starts -->
+    <div id="main">
+            <!-- <form action=""> -->
+        <div id="seg1"><center><img src="user.png" alt=""></center></div>
+        <div id="seg2">
+                <div class="txt">User Name</div><input placeholder="username" id="un" type="text" class="ip">
+                <div class="txt">Password</div><input placeholder="Password" id="ps" type="text" class="ip">
+        </div>
+        <div id="seg4"></div>
+        <div id="seg3">
+            <!-- </form> -->
+            <center>
+            <button id="btn" onclick="check()">Log In</button>
+        </center>
+        </div>
+    </div>
+    <!-- Login Page Ends -->
+
+    <!-- Main Body Starts -->
+<div id="container">
+    <!-- Navbar Starts -->
+    <div id="nav">
+        <div id="section">
+            <div id="con"><button> Home</button></div>
+            <div id="con">
+                <button id="btnACon" onclick="AcademicsON()"> Academics</button>
+                <button id="btnACof" onclick="AcademicsOF()"> Academics</button>
+            </div>
+            <div id="con">
+                <button id="btnUPon" onclick="UpdationON()"> Updation</button>
+                <button id="btnUPof" onclick="UpdationOF()"> Updation</button>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar Ends -->
+
+    <!-- Content 1 starts-->
+        <div class="section1" id="section1">
+            <form action="">
+                <div id="form">
+                    <h4 id="head">
+                        Marks Updation
+                    </h4>
+                </div>
+               <div id="midsec"><h5>English</h5><input class="int" id="engv" type="text"></div> 
+               <div id="midsec"><h5>Maths</h5><input class="int" id="matv" type="text"></div> 
+               <div id="midsec"><h5>Physics</h5><input class="int" id="phyv" type="text"></div> 
+               <div id="midsec"><h5>Chemistry</h5><input class="int" id="chemv" type="text"></div> 
+               <div id="midsec"><h5>Phy Edu</h5><input class="int" id="eduv" type="text"></div> 
+               <div id="midsec"><h5>Computer</h5><input class="int" id="comv" type="text"></div> 
+            </form><br>
+            <button id="update">Update</button>
+        </div>
+    <!-- Content 1 Ends -->
+
+    <!-- Content 2 Starts -->
+        <div class="Section2" id="section2">
+            <table>
+                <tr>
+                  <th>Subjects</th>
+                  <th>Marks</th>
+                </tr>
+                <tr>
+                  <td>English</td>
+                  <td id="eng">00</td>
+                </tr>
+                <tr>
+                  <td>Maths</td>
+                  <td id="mat">00</td>
+                </tr>
+                <tr>
+                  <td>Physics</td>
+                  <td id="phy">00</td>
+                </tr>
+                <tr>
+                  <td>Chemistry</td>
+                  <td id="chem">00</td>
+                </tr>
+                <tr>
+                  <td>Phy Edu</td>
+                  <td id="edu">00</td>
+                </tr>
+                <tr>
+                  <td>Computer</td>
+                  <td id="com">00</td>
+                </tr>
+            </table>
+        </div>
+    <!-- Content 2 ends -->
+
+</div>
+    <!-- main Body Ends -->
+</body>
+<script src="script.js"></script>
+</html>
