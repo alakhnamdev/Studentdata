@@ -1,6 +1,6 @@
     function check(){
         var uname = "alakh";
-        var pass = "foundation";
+        var pass = "namdev";
         var un = document.getElementById("un").value;
         var ps = document.getElementById("ps").value;
         if(un==uname && pass==ps){
